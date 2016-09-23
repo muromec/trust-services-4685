@@ -1,0 +1,73 @@
+.App {
+}
+
+.App-header {
+  padding: 20px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.line {
+  display: flex;
+  justify-content: flex-start;
+
+}
+.cell {
+  flex: 0;
+}
+
+.cert {
+  border: solid 1px #EEE;
+  width: 200px;
+  height: 70px;
+  margin: 10px;
+
+}
+
+.empty {
+  width: 200px;
+  height: 70px;
+  margin: 10px;
+}
+
+.org {
+  margin: 20px;
+  padding: 20px;
+  border-right: solid 1px #AAA;
+  width: 150px;
+}
+
+.arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  
+  border-top: 10px solid #444;
+
+  left: 50px;
+  top: 5px;
+  position: relative;
+}
+
+.cert li label {
+  color: gray;
+}
+
+.algo {
+  float: left;
+  position: relative;
+  left: 80px;
+}
+
+.line > label {
+  flex: 0;
+  position: relative;
+  top: 30px;
+  font-size: medium;
+  font-weight: bold;
+  width: 100px;
+  display: block;
+}
